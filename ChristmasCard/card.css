@@ -1,11 +1,11 @@
 body {
     display: flex;
     justify-content: center;
-    height: 188vh;
+    height: 100vh;
     overflow: hidden;
     align-items: center;
     background-color: #73ba9b;
-}
+} 
 
 .christmas-card {
     width: 220px;
@@ -16,7 +16,7 @@ body {
     transform: perspective(2000px);
     transition: 0.3s;
 }
- 
+
 input#open {
     display: none;
 }
@@ -110,7 +110,7 @@ input#open {
 .front:before {
     transform: rotate(-65deg);
     left: -268px;
-    top: -90;
+    top: -90px;
 }
 
 .front:after {
